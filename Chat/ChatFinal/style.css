@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+  margin:0;
+vertical-align:baseline;
+list-style:none;
+border:0  
+}
+
+.box{
+    background-color:rgb(240, 167, 250);
+    width: 500px;
+    overflow: scroll;
+  
+}
+/*.item{
+    order: 5;
+    height: auto;
+    flex-wrap: wrap;
+    margin: auto;
+   
+}*/
+.container{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    height: 500px;
+    padding:10px;
+    justify-content: space-around;
+    align-items:center;
+    margin:auto;
+    margin-top: 50px;
+    width:auto;
+    background-color:rebeccapurple;
+  
+}
+.input{
+   display:flex;
+    /*background-color: lightgoldenrodyellow;*/
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    
+   
+   
+
+}
+
+
+
+

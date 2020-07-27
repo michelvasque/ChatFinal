@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+   
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body style="background-color: blueviolet;" >
+            <div class="container" > 
+                <div class="input">
+               <label for="nome">Nome:</label> 
+                <input id="nome" class="form-control" placeholder="Digite seu nome">
+                <label for="idade"> Data Nascimento:</label> 
+                <input id="idade" class="form-control" type="date" placeholder="Digite sua idade">
+                <label for="mensagem"> Mensagem:</label> 
+                <textarea id="mensagem" class="form-control" type="text" placeholder="Digite sua mensagem"></textarea>
+                <br>
+                <button id="Sendmensagem" class="btn btn-primary" onclick="salvarmsg()" >Enviar</button>
+                </div>
+            
+                <div id="men" ></div>        
+                    <ul class="box" id="Lista" >
+                        
+                    </ul>
+                    <div id="number"></div>
+                    
+
+
+            
+                
+                </div>
+                
+</body>
+</html>
